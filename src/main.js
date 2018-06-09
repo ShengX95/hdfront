@@ -1,7 +1,7 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
-import { XDialog, Popover, Card, Divider, Flexbox, FlexboxItem, Swiper, SwiperItem, Tab, TabItem, XButton, ButtonTab, ButtonTabItem, Panel, LoadingPlugin, AjaxPlugin } from 'vux'
+import { XDialog, Popover, Card, Divider, Flexbox, FlexboxItem, Swiper, SwiperItem, Tab, TabItem, XButton, ButtonTab, ButtonTabItem, Panel, LoadingPlugin, AjaxPlugin, XImg } from 'vux'
 import FastClick from 'fastclick'
 import App from './App'
 import router from '@/router'
@@ -19,6 +19,7 @@ Vue.component('divider', Divider)
 Vue.component('card', Card)
 Vue.component('popover', Popover)
 Vue.component('x-dialog', XDialog)
+Vue.component('x-img', XImg)
 Vue.use(LoadingPlugin)
 Vue.use(AjaxPlugin)
 // Vue.prototype.$http.defaults.baseURL = 'https://easy-mock.com/mock/5af81c131900fd0e51de8b98'
